@@ -1,0 +1,1 @@
+Jeœli uda Ci siê zrobiæ edycjê posta, spróbuj samodzielnie zaimplementowaæ funkcjonalnoœæ oceniania postów (thumb up / thumb down). Przyciski do plusowania i minusowania powinny znajdowaæ siê na liœcie postów. Pamietaj, ¿e musisz zmodyfikowaæ istniej¹ce posty w bazie danych i dodaæ do nich brakuj¹ce pole, np. voteCount. Najwygodniej zrobiæ to przy u¿yciu robomongo :)
