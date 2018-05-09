@@ -30,8 +30,7 @@ class PostListPage extends Component {
   };
 
   thumbUpPost = post => {
-    this.props.dispatch(thumbUpPost(cuid));
-    this.props.dispatch(thumbUpPostRequest(cuid));
+    this.props.dispatch(thumbUpPostRequest(post));
    };
 
 
@@ -39,7 +38,7 @@ class PostListPage extends Component {
     return (
       <div>
         <PostCreateWidget addPost={this.handleAddPost} showAddPost={this.props.showAddPost} />
-        <PostList handleDeletePost={this.handleDeletePost} thumbUpPostRequest={this.thumbUpPostRequest} posts={this.props.posts} />
+        <PostList handleDeletePost={this.handleDeletePost} thumbUpPost={this.thumbUpPost} posts={this.props.posts} />
       </div>
     );
   }
